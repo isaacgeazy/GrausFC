@@ -19,7 +19,7 @@ namespace GrausFC
               celsius = (fare - 32) / 1.8;
 
               Console.WriteLine();
-              Console.WriteLine($"A conversão de Fahrenheit para Celsius é {celsius}");
+              Console.WriteLine($"A conversão de Fahrenheit para Celsius é {celsius:N2}");
 
         }
     }
